@@ -50,7 +50,7 @@ export default function BarrelSponsorshipForm() {
         </label>
 
         <div className="grid grid-cols-2 gap-4 md:flex md:gap-6">
-          {['One', 'Two', 'Three', 'Four'].map((label) => (
+          {['One', 'Two', 'Three', 'Other'].map((label) => (
             <label key={label} className="flex items-center gap-3 cursor-pointer">
               <input
                 type="radio"

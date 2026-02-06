@@ -46,7 +46,7 @@ export default function DrinksHighlight() {
 
           <p className="md:text-lg text-[#052c2f]/80">
             Not a beer drinker? No problem. Alongside the ales, we'll be serving
-            lagers, wines, spirits, soft drinks, and a full range of alcohol-free
+            lagers, ciders, wines, spirits, soft drinks, and a full range of alcohol-free
             options throughout the weekend.
           </p>
         </div>

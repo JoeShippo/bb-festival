@@ -54,8 +54,7 @@ export default function SponsorABarrel() {
                 Support the Community
               </h3>
               <p>
-                Be part of a local event that brings people together and helps
-                support good causes.
+                Be part of a local event that brings people together and ensures we're able to deliver our Summer Festival year on year.
               </p>
             </div>
           </div>

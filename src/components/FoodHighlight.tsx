@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const vendors = [
   {
-    name: "We Will Wok You",
-    logo: "/vendors/we-will-wok-you.jpg",
-    bg: "bg-red-500/10",
+    name: "The Village Kitchen",
+    logo: "/vendors/village-kitchen.jpg",
+    bg: "bg-neutral-800/10",
   },
   {
     name: "Sizzlers",
@@ -34,15 +34,14 @@ export default function FoodHighlight() {
           </h2>
 
           <p className="md:text-lg mb-4 text-[--var:dark]/80">
-            This year's Bell & Bear Summer Festival brings together four of our
+            This year's Bell & Bear Summer Festival brings together four of your
             favourite food traders - all familiar faces you'll already know from
-            the pub. From sizzling street food to comfort classics, expect bold
-            flavours, proper portions, and the kind of quality we only work with
-            week in, week out.
+            the pub. From sizzling street food to comforting classics, expect bold
+            flavours from the traders you've grown to love!
           </p>
 
           <p className="md:text-lg text-[--var:dark]/80">
-            Whether you're craving Asian noodles from We Will Wok You, stacked
+            Whether you're craving favourites from The Village Kitchen, stacked
             burgers and hot dogs from Sizzlers, rich curries from RaSoi 6, or
             wood-fired pizza from The Little Oven of Joy, you'll find something
             worth queuing for. Come hungry - you're in very good hands.

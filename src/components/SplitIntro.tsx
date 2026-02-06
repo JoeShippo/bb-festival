@@ -9,7 +9,7 @@ export default function SplitIntro() {
         </h2>
         <div className='text-md md:text-lg text-[--var:dark]/80 max-w-[85%] space-y-4'>
             <p>The Bell & Bear Summer Festival is a weekend of live music, great beer, local food and village spirit - all centred around our pub and community.</p>
-            <p>From 10th to 12th July 2026, this year's festival will be our biggest yet.</p>
+            <p>From the 10th to the 12th July 2026, this year's festival will be our biggest yet.</p>
             <p>Watch out for our band line up for the weekend and our extensive array of ciders and beers.</p>
         </div>
           

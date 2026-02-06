@@ -26,7 +26,7 @@ export default function SponsorPage() {
           <div className="relative w-full h-[300px] rounded-xl overflow-hidden shadow-lg">
             <img
               src="/reusable/IMG-20250713-WA0004.jpg"
-              alt="Barrel sponsorship example"
+              alt="Joe & Reon behind the festival bar"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -35,7 +35,7 @@ export default function SponsorPage() {
           <div className="space-y-4 md:text-lg">
             <h2 className="font-heading text-4xl md:text-5xl">Why Sponsor a Barrel?</h2>
             <p>
-              This year we're offering barrel sponsorship at the Bell & Bear Summer Festival. By getting involved, you'll be helping us cover event and entertainment costs while also supporting community and charity fundraising - playing a genuine part in bringing the festival to life.
+              This year we're offering barrel sponsorship at the Bell & Bear Summer Festival. By getting involved, you'll be helping us cover event and entertainment costs while playing a genuine part in bringing the festival to life.
             </p>
             <p>
               As a sponsor, your logo will be displayed prominently at the
@@ -64,7 +64,7 @@ export default function SponsorPage() {
 
             <div className="space-y-3">
               <h3 className="font-heading text-2xl md:text-3xl">Community Support</h3>
-              <p>Be part of a local event that brings people together and supports charity causes.</p>
+              <p>Be part of a local event that brings people together and support your community pub.</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function SponsorPage() {
 
 
           <p className="mt-6 text-sm opacity-80">
-            Or email us at <a href="mailto:info@thebellandbear.co.uk" className="underline">info@thebellandbear.co.uk</a> or call 01234 385537.
+            Or email us at <a href="mailto:info@thebellandbear.co.uk" className="underline">info@thebellandbear.co.uk</a> or call 01234 385537 and ask to speak to one of the managers.
           </p>
         </div>
       </section>

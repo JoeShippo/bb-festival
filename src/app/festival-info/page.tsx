@@ -1,6 +1,8 @@
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import {GiChiliPepper, GiNoodles, GiPizzaSlice, GiHamburger} from 'react-icons/gi'
+import { MdOutlineFoodBank } from "react-icons/md";
+
 
 export default function FestivalInfoPage() {
   return (
@@ -47,7 +49,7 @@ export default function FestivalInfoPage() {
       {/* Sunday */}
       <div className="md:text-lg max-w-sm">
         <h3 className="font-heading text-2xl md:text-3xl mb-3">Sunday</h3>
-        <p>Open at 12:15pm</p>
+        <p>Open at 12pm</p>
         <p>Live Music 13:30 - 18:30</p>
         <p>Close at 20:00</p>
       </div>
@@ -119,11 +121,12 @@ export default function FestivalInfoPage() {
         <p>
           Expect 16 guest ales throughout the weekend.
         </p>
+        <h3 className="font-heading text-xl md:text-2xl">Keep an eye out on our socials for our daily drinks specials!</h3>
         <p>
           Not a beer drinker? No problem.
         </p>
         <p>
-          We'll also be serving lagers, wines, spirits, soft drinks and alcohol-free options.
+          We'll also be serving lagers, ciders, wines, spirits, soft drinks and alcohol-free options.
         </p>
       </div>
     </div>
@@ -155,14 +158,14 @@ export default function FestivalInfoPage() {
 
     {/* LEFT - TEXT */}
     <div>
-      <h2 className="font-heading text-4xl md:text-5xl mb-8">Food & Drinks</h2>
+      <h2 className="font-heading text-4xl md:text-5xl mb-8">Food</h2>
 
       <div className="space-y-4 md:text-lg max-w-xl mb-4">
         <p>
             Our regular food traders you know and love will be joining us across the featival weekend.
         </p>
         <p>
-            From currys & noodles to burgers and pizzas, there will be something for everyone!
+            From curries & classic favourites to burgers and pizzas, there will be something for everyone!
         </p>
         </div>
         <div className="md:text-lg max-w-xl">
@@ -198,9 +201,9 @@ export default function FestivalInfoPage() {
   </li>
 
   <li>
-    <a href="https://www.instagram.com/wewillwokyoumk/" target="_blank" rel="noopener">
-      <GiNoodles className="text-xl" />
-      We Will Wok You
+    <a href="https://www.instagram.com/thevillagekitchenemberton/" target="_blank" rel="noopener">
+      <MdOutlineFoodBank className="text-xl" />
+      The Village Kitchen
     </a>
   </li>
 
