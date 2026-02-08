@@ -1,4 +1,14 @@
+'use client'
+
+import { useCountdown } from '@/hooks/useCountdown';
+import { CountdownBadge } from '@/components/CountdownBadge';
+
+
 export default function HeroBanner() {
+  const { days, hours, minutes } = useCountdown(
+    new Date('2026-07-10T12:00:00')
+  );
+
   return (
     <section
       className="relative min-h-[88vh] flex items-center justify-center overflow-hidden"
@@ -10,6 +20,8 @@ export default function HeroBanner() {
     >
       {/* Colour overlay */}
       <div className="absolute inset-0 bg-[var(--yellow)]/75" />
+
+       <CountdownBadge />
 
       {/* MAIN HERO CONTENT */}
       <div className="relative z-10 inline-block text-left -rotate-1 -translate-y-20 md:-translate-y-15 2xl:-translate-y-10">
