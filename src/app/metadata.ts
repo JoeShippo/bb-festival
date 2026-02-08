@@ -17,6 +17,14 @@ export const metadata: Metadata = {
     siteName: "Bell & Bear Summer Festival",
     locale: "en_GB",
     type: "website",
+    images: [
+      {
+        url: "https://bbfestival.co.uk/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bell & Bear Summer Festival 2026",
+      },
+    ],
   },
 
   twitter: {
@@ -24,5 +32,6 @@ export const metadata: Metadata = {
     title: "Bell & Bear Summer Festival 2026 | Emberton",
     description:
       "Live music, real ales, local food and community spirit — The Bell & Bear Summer Festival returns 10-12 July 2026.",
+    images: ["https://bbfestival.co.uk/og-image.jpg"],
   },
 };

@@ -58,7 +58,7 @@ export default function FestivalInfoPage() {
     {/* RIGHT - IMAGE */}
     <div className="hidden md:block relative w-full h-[420px] rounded-xl overflow-hidden">
       <img
-        src="/reusable/DSC05787.jpg"
+        src="/reusable/DSC05822.jpg"
         alt="Festival atmosphere"
         className="absolute inset-0 w-full h-full object-cover"
       />
@@ -245,6 +245,9 @@ export default function FestivalInfoPage() {
             </p>
             <p>
               Water stations will be available to keep your four-legged friends hydrated.
+            </p>
+            <p>
+              As it's July, please <strong>remember to check the ground temperature</strong> - if it's too hot for the back of your hand, it's too hot for paws. Consider walking dogs on grass where possible and taking regular shade breaks.
             </p>
       </div>
     </div>
