@@ -2,7 +2,7 @@ import { useCountdown } from '@/hooks/useCountdown';
 
 export function CountdownBadge() {
   const { totalMs, days, hours, minutes } = useCountdown(
-    new Date('2026-07-10T14:00:00')
+    new Date('2026-07-10T12:00:00')
   );
 
   // ⛔ Hide completely once started
