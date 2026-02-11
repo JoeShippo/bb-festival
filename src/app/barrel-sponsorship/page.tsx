@@ -1,6 +1,8 @@
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import BarrelSponsorshipForm from './BarrelSponsorshipForm';
+import OpenAleModalButton from '@/components/OpenAleModalButton';
+import AleSuggestionModal from '@/components/AleSuggestionModal';
 
 export default function SponsorPage() {
   return (
@@ -44,17 +46,13 @@ export default function SponsorPage() {
             </p>
           </div>
         </div>
-      </section>
-
-      {/* BENEFITS / PACKAGES */}
-      <section className="py-16 md:py-24 bg-[var(--yellow)] text-[#052c2f]">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6 pt-20">
           <h2 className="font-heading text-4xl md:text-5xl mb-10">Sponsorship Benefits</h2>
 
           <div className="grid md:grid-cols-3 gap-5 md:gap-10 md:text-lg">
             <div className="space-y-3">
               <h3 className="font-heading text-2xl md:text-3xl">Logo Exposure</h3>
-              <p>Your company logo on the festival website, bar signage and programme.</p>
+              <p>Your company logo or name on the festival website, festival signage and programme.</p>
             </div>
 
             <div className="space-y-3">
@@ -69,6 +67,63 @@ export default function SponsorPage() {
           </div>
         </div>
       </section>
+
+      {/* BENEFITS / PACKAGES */}
+      <section className="py-16 md:py-24 bg-[var(--yellow)] text-[#052c2f]">
+  <div className="max-w-6xl mx-auto px-6">
+    <h2 className="font-heading text-4xl md:text-5xl mb-6">
+      How Sponsorship Works & What Ales Are Available
+    </h2>
+
+    <p className="max-w-3xl mb-4 md:text-lg mb-12">
+      This year we have 16 festival barrels available for sponsorship - 
+      and we're inviting you to help shape the beer list before they're confirmed.
+    </p>
+   
+
+    <div className="grid md:grid-cols-4 gap-6 md:gap-10 md:text-lg mb-12">
+
+      <div className="space-y-3">
+        <h3 className="font-heading text-2xl md:text-3xl">1. Suggest an Ale</h3>
+        <p>
+          Tell us what you'd love to see pouring at the festival.
+          Local favourites, something unique, or a personal classic - 
+          we're open to ideas.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <h3 className="font-heading text-2xl md:text-3xl">2. Shortlist & Vote</h3>
+        <p>
+          If we receive lots of suggestions, we'll create a shortlist 
+          of around 20 ales for the community to vote on to help us narrow it down.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <h3 className="font-heading text-2xl md:text-3xl">3. Final 16 Revealed</h3>
+        <p>
+          Once voting closes, we'll reveal the final 16 barrels that 
+          will feature at the festival.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <h3 className="font-heading text-2xl md:text-3xl">4. Sponsor a Barrel</h3>
+        <p>
+          Each of the 16 selected barrels will be available to sponsor. 
+          Sponsors will be linked directly to their chosen ale throughout the weekend.
+        </p>
+      </div>
+
+    </div>
+
+    <h3 className="font-heading text-2xl md:text-3xl mb-6">Got a beer you'd like to suggest?</h3>
+    <OpenAleModalButton />
+
+  </div>
+</section>
+
 
       {/* HOW TO SPONSOR FORM */}
       <section className="py-16 md:py-24 bg-white text-[#052c2f]">
@@ -99,6 +154,7 @@ export default function SponsorPage() {
           </div>
         </div>
       </section> */}
+      <AleSuggestionModal />
 
       <Footer />
     </>
