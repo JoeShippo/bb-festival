@@ -2,7 +2,7 @@
 
 import { useCountdown } from '@/hooks/useCountdown';
 import { CountdownBadge } from '@/components/CountdownBadge';
-
+import Link from 'next/link';
 
 export default function HeroBanner() {
   const { days, hours, minutes } = useCountdown(
@@ -74,8 +74,9 @@ export default function HeroBanner() {
 
         {/* RIGHT – EVENT CALLOUT */}
         <div className="text-center md:text-right font-heading leading-tight">
-          <div className="text-xl md:text-3xl text-[#052c2f]">
-            The Bell & Bear · Emberton
+          <div className="text-xl md:text-2xl text-[#052c2f]">
+            
+            <Link href="https://maps.app.goo.gl/4KQM4UkYJkyL3yqF7" className="hover:underline" target='_blank'>The Bell & Bear · Emberton · MK46 5DH</Link>
           </div>
           <div className="inline-block mt-1 px-4 py-1.5 bg-[var(--green)] text-white text-lg md:text-xl">
             14 Bands & Artists · 16 Ales · Lager & Cider

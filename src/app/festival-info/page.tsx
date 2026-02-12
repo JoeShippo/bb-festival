@@ -2,6 +2,7 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import {GiChiliPepper, GiNoodles, GiPizzaSlice, GiHamburger} from 'react-icons/gi'
 import { MdOutlineFoodBank } from "react-icons/md";
+import Link from 'next/link';
 
 
 export default function FestivalInfoPage() {
@@ -21,8 +22,42 @@ export default function FestivalInfoPage() {
         </div>
       </section>
 
+            <section className="py-16 md:py-24 bg-white text-[#052c2f]">
+  <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+    {/* LEFT - IMAGE */}
+    <div className="hidden md:block relative w-full h-[420px] rounded-xl overflow-hidden">
+      <img
+        src="/reusable/IMG_0715.jpg"
+        alt="The Bell and Bear in Emberton"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+
+    {/* RIGHT - TEXT */}
+    <div>
+      <h2 className="font-heading text-4xl md:text-5xl mb-8">The Bell & Bear's Summer Festival</h2>
+
+      <div className="md:text-lg max-w-3xl space-y-4">
+        <p>
+          The Bell & Bear is a community-owned village pub in Emberton, Buckinghamshire, located just outside Olney (MK46). Rescued by local residents in 2021, our pub has become a thriving hub at the heart of the village.
+        </p>
+        <p>
+          This July marks the 4th annual Bell & Bear Summer Festival - a weekend of live music, real ales, great food and village spirit. 
+        </p>
+        <h3 className="font-heading text-3xl md:text-4xl">Find Us</h3>
+        <p>
+          12 High Street, Emberton, Olney MK46 5DH
+        </p>
+        <Link href="https://maps.app.goo.gl/4KQM4UkYJkyL3yqF7" className='btn btn-secondary'>Find Us On Google Maps</Link>
+      </div>
+    </div>
+
+  </div>
+</section>
+
       {/* TIMES */}
-<section className="py-16 md:py-24 bg-white text-[#052c2f]">
+<section className="py-16 md:py-24 bg-[#052c2f] text-white">
   <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
 
     {/* LEFT - TIMES */}
@@ -69,7 +104,7 @@ export default function FestivalInfoPage() {
 
 
       {/* MUSIC */}
-      <section className="py-16 md:py-24 bg-[#052c2f] text-white">
+      <section className="py-16 md:py-24 bg-white text-[#052c2f]">
   <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
 
     {/* LEFT - IMAGE */}

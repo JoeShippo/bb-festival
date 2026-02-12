@@ -26,7 +26,7 @@ export default function Footer() {
           {/* RIGHT – SOCIALS */}
           <div className="flex md:justify-end gap-6 text-3xl">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/BellAndBear/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -36,7 +36,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/bellandbear/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -102,8 +102,41 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* COLUMN 3 – EMPTY (OPTIONAL SPACER) */}
-          <div className='hidden md:block' />
+          <div>
+            <h4 className="font-heading text-xl mb-4">Get in Touch</h4>
+            <ul className="space-y-2 opacity-80">
+              <li>
+                <a
+                  href="tel:01234385537"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  01234 385537
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:info@thebellandbear.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  info@thebellandbear.co.uk
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/pgD2rQUWjxbFPHu76"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  The Bell and Bear, <br className='hidden md:block'/>12 High Street, <br className='hidden md:block'/>Emberton, MK46 5DH
+                </a>
+              </li>
+            </ul>
+          </div>
 
           {/* COLUMN 4 – LOGO */}
           <div className="hidden md:flex md:justify-end">
@@ -122,10 +155,31 @@ export default function Footer() {
       {/* COPYRIGHT */}
       {/* ===================== */}
       <section className="bg-[#041f22] text-white/60 text-sm py-6">
-        <div className="max-w-7xl mx-auto px-6 text-left">
-          © {new Date().getFullYear()} The Bell & Bear Summer Festival. <br className='block md:hidden'/>All rights reserved.
-        </div>
-      </section>
+  <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    
+    {/* LEFT */}
+    <div className="text-left">
+      © {new Date().getFullYear()} The Bell & Bear Summer Festival.
+      <br className="block md:hidden" />
+      All rights reserved.
+    </div>
+
+    {/* RIGHT */}
+    <div className="text-left md:text-right">
+      Delivered by{" "}
+      <a
+        href="https://shipped-studio.co.uk"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-white transition-colors duration-300"
+      >
+        Shipped Studio
+      </a>
+    </div>
+
+  </div>
+</section>
+
     </footer>
   );
 }
