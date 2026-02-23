@@ -59,6 +59,7 @@ export default function Footer() {
             <h4 className="font-heading text-xl mb-4">Festival</h4>
             <ul className="space-y-2 opacity-80">
               <li><Link href="/festival-info" className="hover:underline">Festival Info</Link></li>
+              <li><Link href="/sponsorship" className="hover:underline">Festival Sponsorship</Link></li>
               <li><Link href="/barrel-sponsorship" className="hover:underline">Sponsor a Barrel</Link></li>
               <li><Link href="/2025-festival" className="hover:underline">2025 Highlights</Link></li>
               <li><Link href="/contact" className="hover:underline">Get In Touch</Link></li>

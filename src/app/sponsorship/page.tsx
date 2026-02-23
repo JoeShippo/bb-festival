@@ -262,7 +262,7 @@ export default function SponsorshipPage() {
           <p className="mt-6 text-sm opacity-80">
             Or email{' '}
             <a href="mailto:info@bbfestival.co.uk" className="underline">
-              info@bbfestival.co.uk
+              info@thebellandbear.co.uk
             </a>
           </p>
         </div>
