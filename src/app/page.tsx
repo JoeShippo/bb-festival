@@ -6,6 +6,7 @@ import SponsorABarrel from '@/components/SponsorABarrel';
 import Footer from '@/components/Footer';
 import FestivalLineup from '@/components/FestivalLineUp';
 import DrinksHighlight from '@/components/DrinksHighlight';
+import SponsorshipSection from '@/components/SponsorshipSection';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <FestivalLineup />
       <DrinksHighlight />
       <FoodHighlight />
-      <SponsorABarrel />
+      <SponsorshipSection />
       <Footer />
     </>
   );

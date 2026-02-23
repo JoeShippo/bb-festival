@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FiX } from 'react-icons/fi';
-import { FaInstagram, FaFacebookF } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaChevronDown } from 'react-icons/fa';
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -20,10 +20,62 @@ export default function Nav() {
         <div className="relative max-w-7xl mx-auto px-6 h-20 md:h-30 flex items-center">
 
           {/* LEFT LINKS (desktop) */}
-          <div className="hidden md:flex flex-1 gap-16 font-heading text-2xl text-[#052c2f]">
-            <Link href="/festival-info" className='transition-colors duration-300 ease-out hover:text-[var(--yellow)]'>Festival Info</Link>
-            <Link href="/barrel-sponsorship" className='transition-colors duration-300 ease-out hover:text-[var(--yellow)]'>Sponsor a Barrel</Link>
-          </div>
+          {/* LEFT LINKS (desktop) */}
+<div className="hidden md:flex flex-1 gap-16 font-heading text-2xl text-[#052c2f]">
+  <Link
+    href="/festival-info"
+    className="transition-colors duration-300 ease-out hover:text-[var(--yellow)]"
+  >
+    Festival Info
+  </Link>
+
+  {/* Sponsorship dropdown */}
+  <div className="relative group">
+    {/* Top-level label (click goes to /sponsorship) */}
+    <Link
+  href="/sponsorship"
+  className="flex items-center gap-2 transition-colors duration-300 ease-out hover:text-[var(--yellow)]"
+>
+  <span>Sponsorship</span>
+  <FaChevronDown className="text-base mt-[2px]" />
+</Link>
+
+    {/* Dropdown */}
+    <div
+      className="
+        absolute left-0 top-full pt-4
+        opacity-0 translate-y-2 pointer-events-none
+        group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto
+        transition-all duration-200 ease-out
+        z-50
+      "
+    >
+      <div className="bg-white rounded-xl shadow-xl border border-black/10 overflow-hidden min-w-[260px]">
+        <Link
+          href="/sponsorship"
+          className="block px-5 py-4 text-xl text-[#052c2f] hover:bg-[var(--yellow)]/20 transition-colors"
+        >
+          Festival Sponsorship
+          <span className="block text-sm opacity-70">
+            Stage, music, cups, toilets & more
+          </span>
+        </Link>
+
+        <div className="h-px bg-black/10" />
+
+        <Link
+          href="/barrel-sponsorship"
+          className="block px-5 py-4 text-xl text-[#052c2f] hover:bg-[var(--yellow)]/20 transition-colors"
+        >
+          Sponsor a Barrel
+          <span className="block text-sm opacity-70">
+            £100 per barrel · 16 available
+          </span>
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
 
           {/* LOGO (ABSOLUTE + SPILL) */}
           <Link
@@ -112,6 +164,14 @@ export default function Nav() {
         className="transition-colors duration-300 hover:text-[var(--yellow)]"
       >
         Festival Info
+      </Link>
+
+      <Link
+        href="/sponsorship"
+        onClick={() => setOpen(false)}
+        className="transition-colors duration-300 hover:text-[var(--pink)]"
+      >
+        Festival Sponsorship
       </Link>
 
       <Link
