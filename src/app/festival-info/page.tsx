@@ -200,7 +200,7 @@ export default function FestivalInfoPage() {
             Our regular food traders you know and love will be joining us across the featival weekend.
         </p>
         <p>
-            From curries & classic favourites to burgers and pizzas, there will be something for everyone!
+            From curries & classic favourites to burgers and hot dogs, there will be something for everyone!
         </p>
         </div>
         <div className="md:text-lg max-w-xl">
@@ -221,12 +221,12 @@ export default function FestivalInfoPage() {
     [&>li>a:hover]:text-[var(--yellow)]
   "
 >
-  <li>
+  {/* <li>
     <a href="https://www.instagram.com/thelittleovenofjoy/" target="_blank" rel="noopener">
       <GiPizzaSlice className="text-xl" />
       The Little Oven of Joy
     </a>
-  </li>
+  </li> */}
 
   <li>
     <a href="https://www.instagram.com/sizzlersstreetfood/" target="_blank" rel="noopener">

@@ -16,11 +16,11 @@ const vendors = [
     logo: "/vendors/rasoi-6.png",
     bg: "bg-[#4b1d2a]/10",
   },
-  {
-    name: "The Little Oven of Joy",
-    logo: "/vendors/little-oven-of-joy.webp",
-    bg: "bg-[#c56a2d]/10",
-  },
+  // {
+  //   name: "The Little Oven of Joy",
+  //   logo: "/vendors/little-oven-of-joy.webp",
+  //   bg: "bg-[#c56a2d]/10",
+  // },
 ];
 
 
@@ -42,9 +42,7 @@ export default function FoodHighlight() {
 
           <p className="md:text-lg text-[--var:dark]/80">
             Whether you're craving favourites from The Village Kitchen, stacked
-            burgers and hot dogs from Sizzlers, rich curries from RaSoi 6, or
-            wood-fired pizza from The Little Oven of Joy, you'll find something
-            worth queuing for. Come hungry - you're in very good hands.
+            burgers and hot dogs from Sizzlers or rich curries from RaSoi 6, you'll find something worth queuing for. Come hungry - you're in very good hands.
           </p>
         </div>
 
