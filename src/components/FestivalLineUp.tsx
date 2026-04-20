@@ -4,10 +4,9 @@ const lineup = [
     colour: "bg-[var(--pink)]/15 border-[var(--pink)]/40",
     accent: "text-[var(--pink)]",
     sets: [
-      { time: "4:30pm – 5:30pm", artist: "TBC" },
-      { time: "6:00pm – 7:00pm", artist: "TBC" },
-      { time: "7:30pm – 8:30pm", artist: "TBC" },
-      { time: "9:00pm – 10:30pm", artist: "TBC" },
+      { time: "6:00pm – 7:00pm", artist: "Neil Armstrong" },
+      { time: "7:30pm – 8:30pm", artist: "Jabberwocky" },
+      { time: "9:00pm – 10:30pm", artist: "The Reformers" },
     ],
   },
   {
@@ -28,7 +27,7 @@ const lineup = [
     colour: "bg-[var(--teal)]/15 border-[var(--teal)]/40",
     accent: "text-[var(--teal)]",
     sets: [
-      { time: "12:15pm – 1:30pm", artist: "TBC" },
+      { time: "12:30pm – 1:30pm", artist: "TBC" },
       { time: "2:00pm – 3:00pm", artist: "TBC" },
       { time: "3:30pm – 4:30pm", artist: "TBC" },
       { time: "5:00pm – 6:30pm", artist: "TBC" },
@@ -89,7 +88,7 @@ export default function FestivalLineup() {
         </div>
 
         <p className="mt-16 text-center text-white/70 text-lg">
-          Full artist line-up to be announced soon. Times subject to change.
+          Times subject to change.
         </p>
       </div>
     </section>
