@@ -14,12 +14,12 @@ const lineup = [
     colour: "bg-[var(--yellow)]/15 border-[var(--yellow)]/40",
     accent: "text-[var(--yellow)]",
     sets: [
-      { time: "1:30pm – 2:30pm", artist: "TBC" },
-      { time: "3:00pm – 4:00pm", artist: "TBC" },
-      { time: "4:30pm – 5:30pm", artist: "TBC" },
-      { time: "6:00pm – 7:00pm", artist: "TBC" },
-      { time: "7:30pm – 8:30pm", artist: "TBC" },
-      { time: "9:00pm – 10:30pm", artist: "TBC" },
+      { time: "1:30pm – 2:30pm", artist: "Emberton Spotlight" },
+      { time: "3:00pm – 4:00pm", artist: "Jazz The Two of Us" },
+      { time: "4:30pm – 5:30pm", artist: "Isa" },
+      { time: "6:00pm – 7:00pm", artist: "Sam Wilkinson" },
+      { time: "7:30pm – 8:30pm", artist: "Sam Wilson Sax" },
+      { time: "9:00pm – 10:30pm", artist: "Little White Lights" },
     ],
   },
   {
