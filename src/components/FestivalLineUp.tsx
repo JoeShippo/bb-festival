@@ -27,10 +27,10 @@ const lineup = [
     colour: "bg-[var(--teal)]/15 border-[var(--teal)]/40",
     accent: "text-[var(--teal)]",
     sets: [
-      { time: "12:30pm – 1:30pm", artist: "TBC" },
-      { time: "2:00pm – 3:00pm", artist: "TBC" },
-      { time: "3:30pm – 4:30pm", artist: "TBC" },
-      { time: "5:00pm – 6:30pm", artist: "TBC" },
+      { time: "12:30pm – 1:30pm", artist: "Olney Brass Band" },
+      { time: "2:00pm – 3:00pm", artist: "Rhys Taylor" },
+      { time: "3:30pm – 4:30pm", artist: "Archy Phipps" },
+      { time: "5:00pm – 6:30pm", artist: "The Naughty Step" },
     ],
   },
 ];
