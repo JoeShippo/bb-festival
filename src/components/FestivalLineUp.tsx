@@ -77,7 +77,7 @@ export default function FestivalLineup() {
                       {set.time}
                     </span>
 
-                    <span className="text-2xl font-heading tracking-wide">
+                    <span className="text-xl md:text-2xl font-heading tracking-wide text-right">
                       {set.artist}
                     </span>
                   </li>

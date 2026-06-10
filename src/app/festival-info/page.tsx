@@ -129,7 +129,7 @@ export default function FestivalInfoPage() {
           Bands and artists will perform across the weekend, with headline acts each night.
         </p>
         <p>
-          Full line-up to be announced soon.
+          <Link href="/lineup" className='btn btn-secondary'>Check out the Full Lineup</Link>
         </p>
       </div>
     </div>

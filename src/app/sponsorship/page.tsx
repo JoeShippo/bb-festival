@@ -197,7 +197,7 @@ export default function SponsorshipPage() {
           'Social Media & Website',
           '5 x Drinks Vouchers',
         ]}
-        availability="1 Left!"
+        secured
       />
 
       <PackageCard

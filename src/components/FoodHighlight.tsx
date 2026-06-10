@@ -34,7 +34,7 @@ export default function FoodHighlight() {
           </h2>
 
           <p className="md:text-lg mb-4 text-[--var:dark]/80">
-            This year's Bell & Bear Summer Festival brings together four of your
+            This year's Bell & Bear Summer Festival brings together three of your
             favourite food traders - all familiar faces you'll already know from
             the pub. From sizzling street food to comforting classics, expect bold
             flavours from the traders you've grown to love!

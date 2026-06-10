@@ -144,9 +144,9 @@ export default function Footer() {
             <Image
               src="/logo/2x/logo.png"
               alt="Bell & Bear Summer Festival"
-              width={220}
-              height={100}
-              className="opacity-90"
+              width={180}
+              height={137}
+              className="opacity-90 object-contain"
             />
           </div>
         </div>
