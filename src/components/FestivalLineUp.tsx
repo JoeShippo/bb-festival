@@ -35,7 +35,9 @@ const lineup = [
   },
 ];
 
-export default function FestivalLineup() {
+import Link from 'next/link';
+
+export default function FestivalLineup({ showLineupLink = false }: { showLineupLink?: boolean }) {
   return (
     <section className="py-24 bg-[var(--dark)] text-white relative overflow-hidden">
       {/* Subtle festival texture / glow */}
@@ -90,6 +92,16 @@ export default function FestivalLineup() {
         <p className="mt-16 text-center text-white/70 text-lg">
           Times subject to change.
         </p>
+
+        {showLineupLink && (
+          <p className="mt-6 text-center text-white/60 text-base">
+            Want to know more about the artists?{' '}
+            <Link href="/lineup" className="text-white underline underline-offset-4 hover:text-[var(--yellow)] transition-colors">
+              Head to the full lineup page
+            </Link>
+            {' '}to meet all 13 acts.
+          </p>
+        )}
       </div>
     </section>
   );

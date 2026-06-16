@@ -41,7 +41,7 @@ const festivalSponsors: {
     sponsor: {
       name: "Oak Wealth Planning",
       logo: "/sponsors/oakwealth.jpeg",
-      bio: "Oak Wealth Planning offers expert financial advice built around you - from financial planning and wealth management to retirement planning, mortgage advice and protection. Their mission is simple: helping you make confident financial decisions today for the life you want tomorrow. Clarity. Confidence. Your future.",
+      bio: "Oak Wealth Planning is a Milton Keynes-based financial advisory firm dedicated to helping you make confident, informed decisions at every stage of life. Whether you're planning for retirement, protecting what matters most, getting on the property ladder or growing your wealth - Rob Jordan and the team take the time to understand your goals and build a plan around them.\n\nWith whole-of-market research, innovative technology and a genuinely personal approach, Rob and the team go beyond the numbers. They're proud to be authorised and regulated by the Financial Conduct Authority, giving you the peace of mind that your finances are in safe hands.\n\nClarity. Confidence. Your future.",
       website: "https://oakwp.co.uk",
       email: "info@oakwp.co.uk",
       phone: "01234 888825",
@@ -56,7 +56,7 @@ const festivalSponsors: {
     sponsor: {
       name: "Souls Coaches",
       logo: "",
-      bio: "Souls Coaches has been getting people where they need to go since 1923. This family-owned, Olney-based coach hire company offers everything from airport transfers and corporate travel to school trips, UK tours and Christmas party transport - with a fleet ranging from 16 to 100 seats. Over a century of reliability, and still going strong. We're delighted to have them on board.",
+      bio: "Souls Coaches has been getting people where they need to go since 1923. This family-owned, Olney-based coach hire company offers everything from airport transfers and corporate travel to school trips, UK tours and Christmas party transport - with a fleet ranging from 16 to 100 seats.\n\n Over a century of reliability, and still going strong. We're delighted to have them on board.",
       website: "https://soulscoaches.co.uk/",
       email: "sales@souls-coaches.co.uk",
       phone: "01234 711242",
@@ -68,8 +68,8 @@ const festivalSponsors: {
     tier: 3,
     sponsor: {
       name: "pibmadly",
-      logo: "",
-      bio: "",
+      logo: "/sponsors/pib.png",
+      bio: "A huge thank you to Maddi & Richard for their incredibly generous sponsorship this year - we couldn't do it without you.",
       website: "",
       email: "",
       phone: "",
@@ -124,7 +124,7 @@ const barrelSponsors: Sponsor[] = [
   {
     name: "Judith Taylor",
     logo: "",
-    bio: "",
+    bio: "Thank you to Judith - your support is greatly appreciated and helps make this festival happen.",
     website: "",
     email: "",
     phone: "",
@@ -134,7 +134,7 @@ const barrelSponsors: Sponsor[] = [
   {
     name: "The Brock Family",
     logo: "",
-    bio: "",
+    bio: "Thank you to The Brock Family - your support is greatly appreciated and helps make this festival happen.",
     website: "",
     email: "",
     phone: "",
@@ -144,7 +144,7 @@ const barrelSponsors: Sponsor[] = [
   {
     name: "The Knight Family",
     logo: "",
-    bio: "",
+    bio: "Thank you to The Knight Family - your support is greatly appreciated and helps make this festival happen.",
     website: "",
     email: "",
     phone: "",
@@ -154,7 +154,7 @@ const barrelSponsors: Sponsor[] = [
   {
     name: "The Hartshorn Family",
     logo: "",
-    bio: "",
+    bio: "Thank you to The Hartshorn Family - your support is greatly appreciated and helps make this festival happen.",
     website: "",
     email: "",
     phone: "",

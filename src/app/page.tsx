@@ -14,7 +14,7 @@ export default function Home() {
       <Nav />
       <HeroBanner />
       <SplitIntro />
-      <FestivalLineup />
+      <FestivalLineup showLineupLink />
       <DrinksHighlight />
       <FoodHighlight />
       <SponsorshipSection />
