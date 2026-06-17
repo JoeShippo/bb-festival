@@ -63,7 +63,7 @@ const ales: Ale[] = [
     style: "Bitter",
     description: "A rich, full-bodied amber bitter from one of England's most celebrated breweries. Malty with a satisfying depth and a long, warming finish.",
     image: "/2026-ale/abbot.png",
-    sponsorNote: "Sponsored by Educare HR Solutions — educarehrsolutions.co.uk",
+    sponsorNote: "Sponsored by Educare HR Solutions - educarehrsolutions.co.uk",
   },
   {
     name: "Fanny Ebbs",
@@ -74,7 +74,7 @@ const ales: Ale[] = [
     description: "Named after a local legend, this blonde pale ale is light and refreshing with a floral hop aroma and a clean, crisp finish.",
     image: "/2025/ales/fanny-ebbs.png",
     local: true,
-    sponsorNote: "Sponsored by Shipped Studio — shipped-studio.co.uk",
+    sponsorNote: "Sponsored by Shipped Studio - shipped-studio.co.uk",
   },
   {
     name: "Sussex Best",
@@ -94,7 +94,7 @@ const ales: Ale[] = [
     style: "Bitter",
     description: "A well-balanced Yorkshire bitter from one of England's most beloved independent breweries. Clean, hoppy and very easy to drink.",
     image: "/2026-ale/BlackSheep.webp",
-    sponsorNote: "Sponsored by Mark Sale — Painting & Decorating Services — 01234 567890",
+    sponsorNote: "Sponsored by Mark Sale - Painting & Decorating Services - 01234 567890",
   },
   {
     name: "Bass",
@@ -102,9 +102,9 @@ const ales: Ale[] = [
     abv: "4.4%",
     colour: "Golden",
     style: "Bitter",
-    description: "Britain's most famous pale ale — a true icon. Lightly hopped with a gentle malt sweetness and a smooth, golden character.",
+    description: "Britain's most famous pale ale - a true icon. Lightly hopped with a gentle malt sweetness and a smooth, golden character.",
     image: "/2026-ale/bass.png",
-    sponsorNote: "Sponsored by Mark Sale — Painting & Decorating Services — 01234 567890",
+    sponsorNote: "Sponsored by Mark Sale - Painting & Decorating Services - 01234 567890",
   },
   {
     name: "Cornish Best",
@@ -114,7 +114,7 @@ const ales: Ale[] = [
     style: "Bitter",
     description: "A refreshing, sessionable amber bitter from Cornwall. Light and easy-drinking with a pleasant hop bitterness. Perfect for a long afternoon.",
     image: "/2026-ale/Cornish-Best-Beer-Card-Image.png",
-    sponsorNote: "Sponsored by The Village Kitchen Emberton — thevillagekitchen.co.uk",
+    sponsorNote: "Sponsored by The Village Kitchen Emberton - thevillagekitchen.co.uk",
   },
   {
     name: "Mill Race",
@@ -163,7 +163,7 @@ const ales: Ale[] = [
     abv: "4.5%",
     colour: "Amber",
     style: "IPA",
-    description: "An amber IPA from Roman Way Brewery. Bold hop flavours balanced by a rich malt body — complex, confident and very drinkable.",
+    description: "An amber IPA from Roman Way Brewery. Bold hop flavours balanced by a rich malt body - complex, confident and very drinkable.",
     image: "/2026-ale/Claudius-Website.png",
     local: true,
   },
@@ -173,7 +173,7 @@ const ales: Ale[] = [
     abv: "4.8%",
     colour: "Amber",
     style: "Bitter",
-    description: "Fuller's Honourable Special Bitter — a premium amber ale with a rich, warming malt character and a classic English hop finish.",
+    description: "Fuller's Honourable Special Bitter - a premium amber ale with a rich, warming malt character and a classic English hop finish.",
     image: "/2026-ale/hsb.png",
   },
   {
@@ -201,7 +201,7 @@ const ales: Ale[] = [
     abv: "6.0%",
     colour: "Golden",
     style: "Pale Ale",
-    description: "An intensely hopped golden IPA from Oakham Ales — the strongest of the weekend. Tropical fruit aromas, serious bitterness and a clean, dry finish. Handle with care.",
+    description: "An intensely hopped golden IPA from Oakham Ales - the strongest of the weekend. Tropical fruit aromas, serious bitterness and a clean, dry finish. Handle with care.",
     image: "/2026-ale/Green-Devil-IPA-2024-PNG.png",
     local: true,
     sponsorNote: "Sponsored by The Brocks",
@@ -298,13 +298,13 @@ export default function DrinksLineup() {
             <h2 className="font-heading text-4xl md:text-5xl mb-8">The Drinks</h2>
             <div className="md:text-lg max-w-3xl space-y-4">
               <p>
-                Across the weekend we'll be pouring an extensive range of real ales, draught lagers, ciders, wines and more — carefully chosen to give you something worth raising a glass to.
+                Across the weekend we'll be pouring an extensive range of real ales, draught lagers, ciders, wines and more - carefully chosen to give you something worth raising a glass to.
               </p>
               <p>
                 Sixteen real ales on rotation, five draughts, five real ciders, and a full selection of wines, softs and alcohol-free options. There's something here for everyone.
               </p>
               <p>
-                Many of our barrels are sponsored by local businesses and individuals — <Link href="/sponsors" className="text-[var(--teal)] font-semibold hover:underline">see all our sponsors here</Link>. 
+                Many of our barrels are sponsored by local businesses and individuals - <Link href="/sponsors" className="text-[var(--teal)] font-semibold hover:underline">see all our sponsors here</Link>. 
               </p>
             </div>
           </div>
@@ -317,7 +317,7 @@ export default function DrinksLineup() {
           <div className="text-center mb-16">
             <h2 className="font-heading text-5xl md:text-6xl mb-4">Real Ales</h2>
             <p className="text-white/60 text-lg max-w-xl mx-auto">
-              16 hand-picked ales from local breweries and national favourites — all served straight from the cask.
+              16 hand-picked ales from local breweries and national favourites - all served straight from the cask.
             </p>
           </div>
 
@@ -370,7 +370,7 @@ export default function DrinksLineup() {
           <div className="text-center mb-16">
             <h2 className="font-heading text-5xl md:text-6xl mb-4">Draught, Cider & More</h2>
             <p className="text-[#052c2f]/60 text-lg max-w-xl mx-auto">
-              Something for everyone — draught lager, real cider, wine, spirits, softs and alcohol-free options.
+              Something for everyone - draught lager, real cider, wine, spirits, softs and alcohol-free options.
             </p>
           </div>
 
@@ -391,7 +391,7 @@ export default function DrinksLineup() {
 
             {/* Real Cider */}
             <div>
-              <h3 className="font-heading text-2xl mb-5 text-[var(--pink)]">Real Cider — Saxby's</h3>
+              <h3 className="font-heading text-2xl mb-5 text-[var(--pink)]">Real Cider - Saxby's</h3>
               <ul className="space-y-3">
                 {ciders.map((c) => (
                   <li key={c.name} className="flex items-center justify-between gap-2 border-b border-black/10 pb-3">
