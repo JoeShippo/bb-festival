@@ -163,6 +163,12 @@ export default function FestivalInfoPage() {
         <p>
           We'll also be serving lagers, ciders, wines, spirits, soft drinks and alcohol-free options.
         </p>
+        <Link
+            href="/drinks-lineup"
+            className="btn btn-primary"
+          >
+            View the Full Drinks Lineup
+          </Link>
       </div>
     </div>
 

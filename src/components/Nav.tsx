@@ -67,7 +67,7 @@ export default function Nav() {
                     </span>
                   </Link>
 
-                  {/* <div className="h-px bg-black/10" />
+                  <div className="h-px bg-black/10" />
 
                   <Link
                     href="/drinks-lineup"
@@ -75,9 +75,9 @@ export default function Nav() {
                   >
                     Drinks Lineup
                     <span className="block text-sm opacity-70">
-                      Fancy a tipple?
+                      16 ales, cider, wine & more
                     </span>
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -221,6 +221,22 @@ export default function Nav() {
             </Link>
 
             <Link
+              href="/lineup"
+              onClick={() => setOpen(false)}
+              className="transition-colors duration-300 hover:text-[var(--teal)]"
+            >
+              Music Lineup
+            </Link>
+
+            <Link
+              href="/drinks-lineup"
+              onClick={() => setOpen(false)}
+              className="transition-colors duration-300 hover:text-[var(--teal)]"
+            >
+              Drinks Lineup
+            </Link>
+
+            <Link
               href="/sponsors"
               onClick={() => setOpen(false)}
               className="transition-colors duration-300 hover:text-[var(--yellow)]"
@@ -228,13 +244,13 @@ export default function Nav() {
               2026 Sponsors
             </Link>
 
-            <Link
+            {/* <Link
               href="/sponsorship"
               onClick={() => setOpen(false)}
               className="transition-colors duration-300 hover:text-[var(--pink)]"
             >
               Festival Sponsorship
-            </Link>
+            </Link> */}
 
             {/* <Link
               href="/barrel-sponsorship"
@@ -244,13 +260,7 @@ export default function Nav() {
               Sponsor a Barrel
             </Link> */}
 
-            <Link
-              href="/2025-festival"
-              onClick={() => setOpen(false)}
-              className="transition-colors duration-300 hover:text-[var(--teal)]"
-            >
-              2025 Highlights
-            </Link>
+            
 
             <Link
               href="/contact"
@@ -260,6 +270,14 @@ export default function Nav() {
               Get In Touch
             </Link>
             <div className="my-4 h-px w-24 bg-white/30" />
+
+            <Link
+              href="/2025-festival"
+              onClick={() => setOpen(false)}
+              className="transition-colors duration-300 hover:text-[var(--teal)]"
+            >
+              2025 Highlights
+            </Link>
 
             <Link
               href="https://thebellandbear.co.uk/"

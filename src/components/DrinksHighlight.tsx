@@ -30,25 +30,23 @@ export default function DrinksHighlight() {
             Expect <strong>16 guest ales</strong> on rotation throughout the festival.
           </p>
 
-          <p className="md:text-lg mb-4 text-[--var:dark]/80">
-            We're currently finalising the line-up and are always open to suggestions. If there's a brewery or beer you'd love to see on the bar, <Link href="/contact" className="text-[var(--teal)] font-semibold hover:underline">let us know</Link>.
+          <p className="md:text-lg mb-4 text-[#052c2f]/80">
+            Not a beer drinker? No problem. Alongside the ales, we'll be serving lagers, ciders, wines, spirits, soft drinks, and a full range of alcohol-free options throughout the weekend.
           </p>
 
-          <p className="md:text-lg mb-6 text-[--var:dark]/80">
-            We'll also be opening up selected casks for sponsorship. If you're interested in sponsoring a barrel - whether as a business, group, or individual - you can{" "}
-            <Link
-              href="/barrel-sponsorship"
-              className="text-[var(--pink)] font-semibold hover:underline"
-            >
-              find out more here
+          <p className="md:text-lg mb-6 text-[#052c2f]/80">
+            A huge thank you to this year's barrel sponsors —{" "}
+            <Link href="/sponsors" className="text-[var(--teal)] font-semibold hover:underline">
+              see all our 2026 sponsors here
             </Link>.
           </p>
 
-          <p className="md:text-lg text-[#052c2f]/80">
-            Not a beer drinker? No problem. Alongside the ales, we'll be serving
-            lagers, ciders, wines, spirits, soft drinks, and a full range of alcohol-free
-            options throughout the weekend.
-          </p>
+          <Link
+            href="/drinks-lineup"
+            className="btn btn-primary btn-lg"
+          >
+            View the Full Drinks Lineup
+          </Link>
         </div>
       </div>
     </section>
