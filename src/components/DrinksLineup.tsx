@@ -174,7 +174,7 @@ const ales: Ale[] = [
     colour: "Amber",
     style: "Bitter",
     description: "Fuller's Honourable Special Bitter — a premium amber ale with a rich, warming malt character and a classic English hop finish.",
-    image: "/2026-ale/HSB.png",
+    image: "/2026-ale/hsb.png",
   },
   {
     name: "Ruby Mild",
