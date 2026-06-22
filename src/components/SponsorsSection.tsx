@@ -26,7 +26,7 @@ const festivalSponsors: {
     tier: 1,
     sponsor: {
       name: "GraphCentric",
-      logo: "",
+      logo: "/sponsors/graphcentric.png",
       bio: "GraphCentric builds intelligent data platforms that help businesses make smarter decisions - putting the right information in the right hands, at the right time. Their technology connects people, applications and AI across a shared body of business knowledge, so organisations can move faster without losing control of what matters. We're proud to have them as our headline sponsor this year.",
       website: "https://graphcentric.com/index",
       email: "",
@@ -243,16 +243,22 @@ export default function SponsorsSection() {
           {/* ── Tier 1 – Headline (full-width card) ── */}
           {tier1.map(({ sponsor }) => (
             <div key={sponsor.name}
-              className="mb-12 rounded-3xl border border-[var(--yellow)]/40 bg-[var(--yellow)]/5 p-10 md:p-14 flex flex-col md:flex-row items-start md:items-center gap-8">
-              <SponsorLogo sponsor={sponsor} size="lg" />
-              <div className="flex-1">
+              className="mb-12 rounded-3xl border border-[var(--yellow)]/40 bg-[var(--yellow)]/5 p-10 md:p-14 flex flex-col md:flex-row items-center gap-10">
+              {/* Text */}
+              <div className="flex-1 min-w-0">
                 <span className="text-[var(--yellow)] font-heading text-sm uppercase tracking-widest mb-1 block">
                   Headline Sponsor
                 </span>
                 <h3 className="font-heading text-4xl md:text-5xl mb-3">{sponsor.name}</h3>
-                {sponsor.bio && <p className="text-white/70 text-base max-w-2xl">{sponsor.bio.split('\n').map((line, i) => (<span key={i}>{line}{i < sponsor.bio!.split('\n').length - 1 && <br />}</span>))}</p>}
+                {sponsor.bio && <p className="text-white/70 text-base">{sponsor.bio.split('\n').map((line, i) => (<span key={i}>{line}{i < sponsor.bio!.split('\n').length - 1 && <br />}</span>))}</p>}
                 <SponsorLinks sponsor={sponsor} />
               </div>
+              {/* Logo in the whitespace */}
+              {sponsor.logo && (
+                <div className="hidden md:flex shrink-0 w-64 w-64 items-center justify-center p-6">
+                  <img src={sponsor.logo} alt={`${sponsor.name} logo`} className="w-full h-full object-contain" />
+                </div>
+              )}
             </div>
           ))}
           
